@@ -9,6 +9,7 @@ router.get('', requireAuth, async (req: Request, res: Response) => {
   const image_url = req.query.image_url;
 
   // validate the image_url query
+  // credit: https://stackoverflow.com/questions/9714525/javascript-image-url-verify
   if (image_url.match(/\.(jpeg|jpg|png)$/) == null) {
     res.status(422).send('Please provide valid image');
   }
