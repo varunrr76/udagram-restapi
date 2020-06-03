@@ -1,9 +1,11 @@
 import { Router, Request, Response } from 'express';
 import { filterImageFromURL, deleteLocalFiles } from '../util/util';
+import { requireAuth } from '../../users/routes/auth.router';
+
 const router: Router = Router();
 
 // GET /filteredimage?image_url={{URL}}
-router.get('', async (req: Request, res: Response) => {
+router.get('', requireAuth, async (req: Request, res: Response) => {
   const image_url = req.query.image_url;
 
   // validate the image_url query
