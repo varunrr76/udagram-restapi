@@ -82,9 +82,9 @@ Developer mode runs off the TypeScript source. Any saves will reset the server a
 
     In Response you will receive JWT:
 
-    Example:
+        Example:
 
-    "token":"eyJhbGciOiJIUzI1NiJ9.dFVAZ21haWwuY29t.4DP1Ilu1n98J8yzuHcjhNAHwdwLnXe-BHNRSBpFOzqV"
+            "token":"eyJhbGciOiJIUzI1NiJ9.dFVAZ21haWwuY29t.4DP1Ilu1n98J8yzuHcjhNAHwdwLnXe-BHNRSBpFOzqV"
 
     Copy this and use it header of requests while accessing other api's.
 
