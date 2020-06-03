@@ -44,13 +44,13 @@ Developer mode runs off the TypeScript source. Any saves will reset the server a
 
     An example:
 
-        API: http://udagram-restapi-dev.us-east-2.elasticbeanstalk.com/api/v0/user/
+        API: http://udagram-restapi-dev.us-east-2.elasticbeanstalk.com/api/v0/users/auth/
 
         body:
 
             {
 
-                "email": "****@gmail.com"
+                "email": "****@gmail.com",
                 "password": "********"
 
             }
@@ -65,7 +65,7 @@ Developer mode runs off the TypeScript source. Any saves will reset the server a
 
             {
 
-                "email": "tU@gmail.com"
+                "email": "tU@gmail.com",
                 "password": "tU"
 
             }
