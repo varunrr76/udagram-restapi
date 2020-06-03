@@ -68,6 +68,7 @@ router.get(
 router.post('/login', async (req: Request, res: Response) => {
   const email = req.body.email;
   const password = req.body.password;
+
   // check email is valid
   if (!email || !EmailValidator.validate(email)) {
     return res
