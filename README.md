@@ -71,7 +71,7 @@ Developer mode runs off the TypeScript source. Any saves will reset the server a
 
         API: http://udagram-restapi-dev.us-east-2.elasticbeanstalk.com/api/v0/user/login
 
-                body:
+        body:
 
             {
 
@@ -90,7 +90,7 @@ Developer mode runs off the TypeScript source. Any saves will reset the server a
 
 2.  Filtering image:
 
-    API: http://udagram-restapi-dev.us-east-2.elasticbeanstalk.com/api/v0/filteredimage?image_url={{image_url_here}}
+        API: http://udagram-restapi-dev.us-east-2.elasticbeanstalk.com/api/v0/filteredimage?image_url={{image_url_here}}
 
     Also, attach the token that we received above to this request.
 
