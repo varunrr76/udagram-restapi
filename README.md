@@ -85,3 +85,7 @@ Developer mode runs off the TypeScript source. Any saves will reset the server a
     Also, attach the token that we received above to this request.
 
     You should get a filtered image if image is present in image_url else you get an error.
+
+## Elastic Beanstalk Deployment status:
+
+    ![EB deployment](https://github.com/VarunRaj7/udagram-restapi/blob/dev/EBdeployment/Deployment%20Status.png)
